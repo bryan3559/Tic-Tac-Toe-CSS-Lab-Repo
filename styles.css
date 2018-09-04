@@ -1,0 +1,22 @@
+#board {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+}
+
+
+.top-left, .middle-top, .top-right {
+    border-bottom: 1px black solid;
+}
+
+.bottom-left, .bottom-right, .bottom-middle {
+    border-top: 1px black solid;
+}
