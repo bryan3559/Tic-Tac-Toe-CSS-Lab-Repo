@@ -3,20 +3,35 @@
     text-align: center;
 }
 
-.row {
+#square {
     float: left;
     height: 100px;
     width: 100px;
+}
+
+.row {
     clear: both;
-    margin: 0 auto;
     width: 302px;
+    margin: 0 auto;
 }
 
-
-.top-left, .middle-top, .top-right {
+.top {
     border-bottom: 1px black solid;
+    cursor: pointer;
 }
 
-.bottom-left, .bottom-right, .bottom-middle {
+.bottom {
     border-top: 1px black solid;
+    cursor: pointer;
 }
+
+.left {
+    border-right: 1px black solid;
+    cursor: pointer;
+}
+
+.right {
+    border-left: 1px black solid;
+    cursor: pointer; 
+}
+
